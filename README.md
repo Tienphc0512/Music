@@ -33,17 +33,6 @@
   
   - Mobile App Development
 
- ## Kiến trúc tổng thể
-  [ Mobile App (Expo - Android) ]
-            |
-            |  HTTP (Axios)
-            v
-[ Node.js Upload API (Express) ]
-            |
-     ------------------
-     |                |
-Cloudinary        Firestore
-(Lưu file mp3)   (Lưu metadata)
 
 ## Công nghệ sử dụng
 📱 Frontend (Mobile App)
