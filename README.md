@@ -7,7 +7,7 @@
 
   - Số lượng thành viên: 4
   
-  - Môn học: Lập trình ứng dụng
+  - Môn học: Đồ án lập trình A
   
   - Loại đồ án: Mobile App + Backend API
   
