@@ -49,6 +49,41 @@
   
   - React Navigation
 
+* Tính năng chính:
+
+  - Đăng nhập / xác thực người dùng
+  
+  - Upload nhạc
+  
+  - Phát nhạc online
+
+  - Giao diện thân thiện trên Android
+
+* Chạy app:
+```bash 
+npm install
+npm start
+```
+
+Hoặc:
+
+```bash 
+npm run android
+```
+
+📦 Thư viện chính (Frontend)
+
+`expo-av` – Phát nhạc
+
+`axios` – Gọi API
+
+`@react-native-firebase/auth` – Authentication
+
+`react-navigation` – Điều hướng
+
+`expo-document-picker` – Chọn file nhạc
+
+
 🌐 Backend (API Upload)
 
   - Node.js
@@ -62,6 +97,18 @@
   - Firebase Admin SDK
   
   - Firestore Database
+
+* Biến môi trường (.env – Backend)
+```bash 
+CLOUDINARY_CLOUD_NAME=xxx
+CLOUDINARY_API_KEY=xxx
+CLOUDINARY_API_SECRET=xxx
+
+FIREBASE_PROJECT_ID=xxx
+FIREBASE_CLIENT_EMAIL=xxx
+FIREBASE_PRIVATE_KEY=xxx
+FIREBASE_DATABASE_URL=xxx
+```
 
 ## Kết quả đạt được
 
